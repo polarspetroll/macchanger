@@ -22,7 +22,7 @@ chmod +x mchanger.rb
 ./mchanger.rb
 ```
 
-**full install**
+**full installation**
 
 ```bash
 chmod +x install.sh
