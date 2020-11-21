@@ -34,7 +34,7 @@ mchanger.rb
 
 ### options
 
-```bash
+```
  usage : mchanger [options]
 
     options:
