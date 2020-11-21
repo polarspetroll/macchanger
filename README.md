@@ -14,21 +14,42 @@ mac address changer
 **quick usage**
 
 
-``
+```bash
 git clone https://github.com/polarspetroll/macchanger.git
 
 chmod +x mchanger.rb
 
 ./mchanger.rb
-``
+```
 
 **full install**
 
-``
+```bash
 chmod +x install.sh
 
 ./install.sh
 
 mchanger.rb
-``
+```
+
+### options
+
+```bash
+ usage : mchanger [options]
+
+    options:
+
+    -h : help menu
+    -i : interface (device)
+    -m : mac address
+    -c : set mac address to the selected author
+    examples :
+     mchanger -i wlan0 -m 66:55:44:33:22:11
+     mchanger -i eth0 -c raspberrypi
+    available hardware authors for -c :
+      cisco, intel-Corporation, apple, samsung, mikrotik, asus, cybertan, raspberrypi, tenda
+      zyxel, tp-link, nokia, lg, d-link, microsoft, netgear, alcatel, ubiquiti, ibm, google
+      amd, hp
+```
+
 
