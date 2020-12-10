@@ -15,7 +15,7 @@ mac address changer
 
 
 ```bash
-git clone https://github.com/polarspetroll/macchanger.git
+git clone https://github.com/polarspetroll/macchanger.git && cd macchanger
 
 chmod +x mchanger.rb
 
