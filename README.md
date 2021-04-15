@@ -1,7 +1,7 @@
 # macchanger
 mac address changer
 
-## futures
+## features
 **+** built in small database with popular hardware authors
 
 **+** light weight 
